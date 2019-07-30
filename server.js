@@ -1,7 +1,13 @@
 // Set some constants
 
 const express = require('express');
+const connectDB = require('./config/db');
+
 const app = express();
+
+// Connect DB
+connectDB();
+
 const PORT = process.env.PORT || 9000;
 
 // Setup routes to destination
