@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 
+.tool-icons-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.tool-icons {
+  padding-bottom: 2rem;
+  padding-top: 3rem;
+  align-items: center;
+  justify-content: center;
+  text-align:center;
+}
+
 .vCenterItems {
   display: flex;
   align-items: center;
