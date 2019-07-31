@@ -8,7 +8,7 @@ const Navbar = ({ title, tab}) => {
     return (
         <div className="navbar bg-primary">
             <h1 className="vCenterItems">
-                <img src={Logo} width="60px" height="60px" alt="" /><img src={LogoTab} width="30px" height="30px" alt="" /> {tab} {title}
+                <img src={Logo} width="60px" height="60px" alt="" /><img src={LogoTab} width="20px" height="20px" alt="" /> {tab} {title}
             </h1>
 
         </div>
